@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+  double amount, total;
+	printf("enter sales in dollars( -1 to end): ");
+	scanf("%lf",&amount);
+	
+	while(amount != -1){
+		
+		total = ((amount * 9)/100) + 200 ;
+		printf("salary is : %.2lf\n", total);
+		
+		printf("enter sales in dollars( -1 to end): ");
+		scanf("%lf",&amount);
+		
+	}
+	return 0;	
+}
